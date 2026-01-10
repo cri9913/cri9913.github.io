@@ -237,6 +237,54 @@ a:hover {
     font-size: 0.9375rem;
 }
 
+/* Subsection Titles */
+.subsection-title {
+    font-family: var(--font-mono);
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid var(--border);
+}
+
+.subsection-title:not(:first-of-type) {
+    margin-top: 3rem;
+}
+
+/* Skills */
+.skills-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.skill-item {
+    padding: 1.5rem;
+    background: var(--bg-tertiary);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    transition: border-color 0.2s ease;
+}
+
+.skill-item:hover {
+    border-color: var(--accent);
+}
+
+.skill-item h4 {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin-bottom: 0.75rem;
+}
+
+.skill-description {
+    font-size: 0.9375rem;
+    line-height: 1.7;
+}
+
 /* ============================================
    Accomplishments Section
    ============================================ */
