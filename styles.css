@@ -244,6 +244,21 @@ a:hover {
     font-size: 0.9375rem;
 }
 
+.exp-description-list {
+    font-size: 0.9375rem;
+    color: var(--text-secondary);
+    padding-left: 1.25rem;
+    margin: 0;
+}
+
+.exp-description-list li {
+    margin-bottom: 0.5rem;
+}
+
+.exp-description-list li:last-child {
+    margin-bottom: 0;
+}
+
 /* Subsection Titles */
 .subsection-title {
     font-family: var(--font-mono);
