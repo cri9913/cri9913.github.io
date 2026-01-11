@@ -160,18 +160,12 @@ a:hover {
     align-items: center;
 }
 
-.image-placeholder {
+.profile-image {
     width: 200px;
     height: 200px;
-    background: var(--bg-secondary);
-    border: 1px solid var(--border);
     border-radius: 4px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: var(--font-mono);
-    font-size: 2rem;
-    color: var(--accent);
+    border: 1px solid var(--border);
+    object-fit: cover;
 }
 
 .tagline {
@@ -415,7 +409,7 @@ a:hover {
         gap: 2rem;
     }
 
-    .image-placeholder {
+    .profile-image {
         margin: 0 auto;
         width: 160px;
         height: 160px;
